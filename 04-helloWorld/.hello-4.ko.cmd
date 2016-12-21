@@ -1,1 +1,0 @@
-cmd_/home/mauricio/Diplomado/learning_kernel/04-helloWorld/hello-4.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/mauricio/Diplomado/learning_kernel/04-helloWorld/hello-4.ko /home/mauricio/Diplomado/learning_kernel/04-helloWorld/hello-4.o /home/mauricio/Diplomado/learning_kernel/04-helloWorld/hello-4.mod.o
