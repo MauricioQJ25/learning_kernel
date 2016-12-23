@@ -1,14 +1,19 @@
 /*
  *  hello-5.c - Demonstrates command line argument passing to a module.
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+
+/*
+ * Para pasar un mensaje se requiere de lo siguiente en la linea de comandos:
+ * sudo insmod hello-5.ko mystring="bebop" mybyte=255 myintArray=-1
+ */
+#include <linux/module.h>			/*Needed for all modules*/
+#include <linux/moduleparam.h>		/*Needed for param*/
+#include <linux/kernel.h>			/*Needed for printk*/
+#include <linux/init.h>				
 #include <linux/stat.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Peter Jay Salzman");
+MODULE_AUTHOR("Mauricio mau@mau.org");
 
 static short int myshort = 1;
 static int myint = 420;
