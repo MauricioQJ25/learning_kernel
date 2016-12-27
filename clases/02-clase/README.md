@@ -42,6 +42,9 @@ identificadores, permisos, un monton de cosas
 El thread info maneja el estado y estadisticas del proceso corriendo,
 se accede al proceso en ejecucion, el proceso anterior, guarda en un registro del procesador, o al final de la memoria mapeada
 
+---------------------------------------------------------------------------------------------%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 #Planificador de Procesos
 analogia del mesero ciego.
 
