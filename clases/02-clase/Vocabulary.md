@@ -36,3 +36,7 @@ stream:		fluir
 achieves:	lograr
 attempting: intentando
 dive:		sumergirse
+----------------------------
+dry:		seco
+affair: 	asunto
+unless:		a no ser que
